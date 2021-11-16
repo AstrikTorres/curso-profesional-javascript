@@ -34,7 +34,7 @@
     }
 
     MediaPlayer.prototype.play = function() {
-      this.media.play();
+      this.media.paused ? this.media.play() : this.media.pause();
     };
     
     const player = new MediaPlayer({el: video});
