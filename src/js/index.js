@@ -19,3 +19,9 @@ muteButton.onclick = () => {
     player.mute();
   }
 };
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/src/sw.js').catch(error => {
+    console.log(error.message);
+  })
+}
