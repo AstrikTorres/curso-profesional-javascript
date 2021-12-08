@@ -52,4 +52,6 @@ let comodin: any = "Joker";
 comodin = {type: 'Wildcard'}
 
 // object. Del tipo objeto.
-let someObject: object = {type: 'Wildcard'}
+let someObject: object = { type: 'Wildcard' }
+
+export default Color
