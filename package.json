@@ -4,9 +4,16 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la escuela de Js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel src/index.html src/**/*.html"
   },
   "keywords": [],
   "author": "Astrik Torres <astriktorres@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.5.2"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }

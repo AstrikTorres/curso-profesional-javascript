@@ -1,4 +1,4 @@
-self.addEventListener('install', event => {
+/* self.addEventListener('install', event => {
   event.waitUntil(precache());
 })
 
@@ -40,4 +40,4 @@ async function updateCache(request) {
   const cache = await caches.open("v1");
   const response = await fetch(request);
   return cache.put(request, response);
-}
+} */
