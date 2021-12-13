@@ -4,7 +4,7 @@
   "description": "Proyecto del Curso Profesional de JavaScript de la escuela de Js",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html src/**/*.html src/**/**/*.html"
+    "start": "parcel src/index.html src/**/*.html patrones-diseño/**/**.html"
   },
   "keywords": [],
   "author": "Astrik Torres <astriktorres@gmail.com>",
